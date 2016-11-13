@@ -24,8 +24,8 @@ module.exports = function middleware () {
    * use is used to include new middlewares.
    * @param  {Function} middleware request listener to added
    */
-  requestListener.use = function use (middleware) {
-    listeners.push(middleware)
+  requestListener.use = function use (...middleware) {
+    listeners.push(...middleware)
   }
 
   /**
