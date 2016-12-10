@@ -4,8 +4,5 @@
   "description": "Middleware manager for notify",
   "main": "index.js",
   "author": "Luca Tabone <taboneluca3@gmail.com>",
-  "license": "ISC",
-  "devDependencies": {
-    "jsdoc": "^3.4.3"
-  }
+  "license": "ISC"
 }
