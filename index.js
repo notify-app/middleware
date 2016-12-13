@@ -6,7 +6,7 @@ module.exports = function middleware () {
    * is recieved.
    * @type {Array}
    */
-  const listeners = []
+  let listeners = []
 
   /**
    * requestListener is the function which should be set as a listener for new

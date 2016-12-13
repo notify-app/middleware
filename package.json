@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "description": "Middleware manager for notify",
   "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
   "author": "Luca Tabone <taboneluca3@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^8.6.0"
+  }
 }
