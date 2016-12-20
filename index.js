@@ -1,5 +1,9 @@
 'use strict'
 
+/**
+ * Middleware is a utility that enables the queuing of `request` listeners for
+ * an HTTP Server.
+ */
 module.exports = function middleware () {
   /**
    * listeners contains all middlewares which will be considered when a request
